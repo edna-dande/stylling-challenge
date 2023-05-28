@@ -1,0 +1,170 @@
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  background: black;
+
+  & {
+    text-align: right;
+    background: black;
+  }
+
+  a {
+    text-decoration: right;
+    display: black;
+    padding: 1em;
+    color: white;
+  }
+
+  li {
+    display: inline;
+
+    a:hover {
+      padding: 10px;
+      text-decoration: none;
+    }
+  }
+
+  ul.navigation {
+    margin-left: unset;
+    margin-bottom: unset;
+  }
+}
+
+.scroll-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+
+    a {
+      padding: 10px;
+      text-decoration: none;
+    }
+  }
+
+  & {
+    color: white;
+  }
+}
+
+.nav-list a {
+  color: white;
+}
+
+.button1 {
+  border-radius: 15px;
+  background: white;
+  color: black;
+  width: 140px;
+  margin-top: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.apondi {
+  float: right;
+}
+
+.online {
+  color: orange;
+}
+
+.scroll-container {
+  text-align: right;
+}
+
+.background {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+.image {
+  float: left;
+  margin-right: 4px;
+  background: white;
+  border-radius: 40px;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+
+    a {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding: 20px;
+}
+
+.centre {
+  width: 1000px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 750px;
+
+  .title {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .boxes {
+    height: 200px;
+  }
+
+  .student {
+    margin-right: 12px;
+    width: 240px;
+    color: white;
+    background-color: #48048c;
+    float: left;
+    padding: 20px 20px;
+    height: 200px;
+  }
+
+  .basic {
+    margin-right: 12px;
+    width: 240px;
+    background-color: #70343c;
+    color: white;
+    float: left;
+    padding: 20px 20px;
+    height: 200px;
+  }
+
+  .sponsor {
+    margin-right: 12px;
+    width: 240px;
+    background-color: #f86c04;
+    color: white;
+    float: left;
+    padding: 20px 20px

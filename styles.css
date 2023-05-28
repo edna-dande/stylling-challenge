@@ -1,0 +1,274 @@
+
+ /*body {
+      background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("https://www.alpinesavvy.com/blog/whats-shaded-relief-on-a-contour-map");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }*/
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  background: black;
+}
+
+.navigation{
+text-align: right;
+background: black;
+}
+
+.navigation a {
+  text-decoration: right;
+  display: black;
+  padding: 1em;
+  color: white;
+}
+
+  .navigation li {
+      display: inline;
+
+    }
+    
+    .navigation li a:hover {
+      padding: 10px;
+      text-decoration: none;
+    }
+
+  ul.navigation{
+    margin-left: unset;
+    margin-bottom: unset;
+  }
+
+.scroll-container{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .scroll-container li {
+      display: inline;
+    }
+    .scroll-container li a {
+      padding: 10px;
+      text-decoration: none;
+    }
+
+.scroll-container{
+color:white;
+}
+
+.nav-list a{
+  color:white;
+
+}
+
+.button1{
+  border-radius: 15px;
+  background: white;
+  color: black;
+  width: 140px;
+  margin-top: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.apondi{
+  float: right;
+}
+
+.online{
+color:orange;
+}
+
+   .scroll-container{
+    text-align: right;
+   }
+
+  .background{
+/*      background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("background.jpg");*/
+      background-image: url("background.jpg");
+      background-repeat:no-repeat ;
+      background-size:cover ;
+      height: 1200px;
+    }
+
+  .image{
+    float:left;
+    margin-right: 4px;
+    background: white;
+    border-radius: 40px;
+  }
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+.right{
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding: 20px;
+}
+  
+    
+  
+.centre {
+      width: 1000px;
+      margin-top: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 750px;
+    }
+    
+    .title{
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+.boxes{
+  height: 200px;
+}
+
+  .student{
+    margin-right: 12px;
+    width: 240px;
+    color: white;
+    background-color: #48048c;
+    float: left;
+    padding: 20px 20px;
+    height: 200px;
+  }
+
+  .basic{
+margin-right: 12px;
+width: 240px;
+background-color: #70343c;
+color: white;
+float: left;
+padding: 20px 20px;
+height: 200px;
+  }
+
+  .sponsor{
+    margin-right: 12px;
+    width: 240px;
+    background-color: #f86c04;
+    color: white;
+    float: left;
+    padding: 20px 20px;
+    height: 200px;
+  }
+
+  .lifetime{
+    width: 240px;
+    background-color: #08a49c;
+    color: white;
+    float: left;
+    padding: 20px 20px;
+    height: 200px;
+  }
+  .dollar{
+    font-size:25px;
+  }
+
+  .conferences{
+    margin: 20px;
+    width: 455px;
+    height: 350px;
+    float: left;
+  }
+
+  .picture{
+    background: url("flowing-water.jpg");
+    float: left;
+    margin: 20px;
+    width: 455px;
+    height: 350px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 20px;
+  }
+.button2{
+  border-radius: 15px;
+  background: white;
+  color: black;
+  width: 160px;
+  margin-top: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+    .community{
+     background-color: #181414;
+     color:white;
+     text-align: center;
+     height: 150px;
+    }
+    
+    .button3{
+  border-radius: 15px;
+  background: #f88c1c;
+  color: white;
+  width: 160px;
+  margin-top: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contacts{
+float: left;
+margin: 30px;
+background: black;
+color: white;
+list-style-type: none;
+width: 200px;
+}
+
+.footer{
+background-color: black;
+height: 350px;
+color: white;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.footer li{
+  color: gray;
+
+}
+
+.today{
+  width: 100%;
+  height:260px;
+}
+
+.media{
+  background: inherit;
+  height: 20px;
+}
+
+.image2{
+    float:left;
+    margin-right: 4px;
+    background: grey;
+    border-radius: 40px;
+  }
